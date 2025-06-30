@@ -1,10 +1,9 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-// import images from '../../constants/images'; // remove if not used
-import './Navbar.css';
-import tajLogo from '../../assets/taj-logo.png'; // Make sure this path matches your actual file location
 
+import './Navbar.css';
+import tajLogo from '../../assets/taj-logo.png'; 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
@@ -16,7 +15,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#home">Home</a></li>
         <li className="p__opensans"><a href="#about">About</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
+        
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
